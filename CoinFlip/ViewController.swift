@@ -35,10 +35,6 @@ class ViewController: UIViewController {
         resultLabel.text = "Flip!"
     }
     
-    override func prefersStatusBarHidden() -> Bool {
-        return true
-    }
-    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
