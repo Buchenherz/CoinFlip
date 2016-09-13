@@ -16,7 +16,7 @@ struct Coin{
     let tails = "Tails"
     
 func getFlipResult() -> String{
-    let randomNumber = GKRandomSource.sharedRandom().nextInt(withUpperBound: 2)
+    let randomNumber = GKRandomSource.sharedRandom().nextInt(upperBound: 2)
     switch randomNumber {
     case 0:
         return heads
